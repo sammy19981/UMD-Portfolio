@@ -201,9 +201,9 @@ function Hero() {
           transition={{ duration: 0.7, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
           className="text-[clamp(2.5rem,6vw,4.5rem)] font-semibold leading-[1.08] tracking-[-0.035em] max-w-3xl mb-6"
         >
-          <span className="text-zinc-100">I build the pipelines</span>
+          <span className="text-zinc-100">I turn complexity</span>
           <br />
-          <span className="text-gradient-accent">behind better decisions.</span>
+          <span className="text-gradient-accent">into clarity.</span>
         </motion.h1>
 
         <motion.p
@@ -212,9 +212,9 @@ function Hero() {
           transition={{ duration: 0.6, delay: 0.55 }}
           className="text-lg text-zinc-400 max-w-xl leading-relaxed mb-10"
         >
-          Data engineer and analyst with 3.5+ years at Deloitte. I design
-          cloud-scale ETL, BI dashboards, and ML workflows that teams ship with
-          confidence. Currently finishing my MS at UMD.
+          Analytics and strategy professional with 3.5+ years at Deloitte. I
+          blend data engineering, BI, and consulting to solve business problems
+          end-to-end. Currently finishing my MS at UMD.
         </motion.p>
 
         <motion.div
@@ -434,7 +434,7 @@ function Skills() {
         <SectionLabel>Skills</SectionLabel>
         <SectionTitle>Tools of the trade.</SectionTitle>
         <motion.p variants={fadeUp} className="text-zinc-400 max-w-xl mb-14 leading-relaxed">
-          Hands-on across the full data stack — from Python scripts to
+          Hands-on across the full data stack - from Python scripts to
           cloud-scale ETL.
         </motion.p>
 
@@ -686,8 +686,9 @@ function Contact() {
               Let&apos;s build something great.
             </h2>
             <p className="text-[16px] text-zinc-500 max-w-md mx-auto mb-10 leading-relaxed">
-              Looking for roles in data analytics, BI, and cloud engineering.
-              Happy to walk through a pipeline or dashboard example.
+              Looking for roles in business analytics, data analytics, product
+              analytics, and consulting. Happy to walk through a case study or
+              dashboard example.
             </p>
 
             <div className="flex flex-wrap justify-center gap-3">

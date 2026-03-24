@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sameer Saxena — Data & Cloud Engineer",
+    title: "Sameer Saxena - Data & Cloud Engineer",
     description:
       "3.5+ years at Deloitte. Multi-cloud certified. Building pipelines, dashboards, and ML workflows.",
   },

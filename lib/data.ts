@@ -9,41 +9,47 @@ export interface Experience {
 }
 
 export const experience: Experience[] = [
-  {
+   {
     company: "University of Maryland",
-    role: "Impact Consulting Fellow",
+    role: "Impact Consulting Fellow — Center for Social Value Creation",
     period: "Mar 2026 – Present",
     location: "Maryland, US",
     type: "Part-time",
     bullets: [
-      "Selected for Spring 2026 Impact Consulting Fellowship, applying analytics consulting to community-focused projects.",
+      "Leading the strategy and market analytics workstream for AgriTrails, a nonprofit agritourism client, designing a hybrid revenue measurement framework when direct sales data is unavailable.",
+      "Developed proxy-based KPI models using digital pass analytics (sign-ups, check-ins, trail completions, repeat visit rates) and visitor spending surveys to estimate economic impact without perfect transaction data.",
+      "Authoring the final strategic recommendation covering practical metric selection, indirect revenue tracking methods, and a scalable measurement system tailored to resource-constrained nonprofit operations.",
     ],
     current: true,
   },
-  {
+ {
     company: "University of Maryland",
     role: "VP Events & Operations, SMISA",
     period: "Nov 2025 – Present",
     location: "On-site",
     type: "Full-time",
     bullets: [
-      "Leading event strategy and operations for the Smith Masters Information Systems Association.",
+      "Own end-to-end planning, logistics, and communications for a 60+ member graduate association - managing venue sourcing and stakeholder outreach across all SMISA events.",
+      "Successfully organized social mixers, professional networking sessions, and technical workshops, driving consistent attendance growth through targeted email campaigns and data-informed scheduling.",
+      "Streamlined event operations by building repeatable planning templates and communication workflows, reducing planning lead time and improving cross-committee coordination.",
     ],
     current: true,
   },
-  {
-    company: "Center for GWorked",
-    role: "Global Consulting Associate",
+   {
+    company: "University of Maryland",
+    role: "Global Consulting Associate — Center for Global Business",
     period: "Oct – Dec 2025",
     location: "Remote",
     type: "Contract",
     bullets: [
-      "Mapped Ireland's training and workforce landscape in a 4-person team to inform potential market entry strategy.",
+      "Led market research and competitive analysis for a 5-week consulting engagement, mapping Ireland's workforce development landscape across 50+ training providers.",
+      "Synthesized qualitative interview data and secondary research into a go-to-market strategy deck, identifying 3 high-potential market entry segments for the client.",
+      "Delivered final recommendations to faculty advisors and client stakeholders, earning recognition for analytical rigor and clarity of insights.",
     ],
   },
   {
     company: "Deloitte India",
-    role: "Consultant → Analyst",
+    role: "Analyst → Consultant",
     period: "Nov 2021 – Jun 2025",
     location: "Gurugram, India",
     type: "3 yrs 8 mos",
@@ -55,14 +61,27 @@ export const experience: Experience[] = [
       "Produced 21 IT and cybersecurity policies aligned with NIST CSF for a conglomerate.",
     ],
   },
-  {
+   {
     company: "Hanu Software",
     role: "IAAS Azure Trainee",
     period: "Jan – Jun 2021",
     location: "Remote",
     type: "6 mos",
     bullets: [
-      "Administered MSP and CSP client environments within Azure for optimal performance, security, and cost-effectiveness.",
+      "Monitored and optimized cloud infrastructure across 10+ client environments on Microsoft Azure, reducing resource waste by identifying underutilized VMs and rightsizing compute allocations.",
+      "Created weekly performance and cost-analysis reports for account managers, translating Azure Monitor metrics into business-friendly dashboards that informed client renewal decisions.",
+      "Documented SOPs for incident escalation and backup recovery, reducing mean resolution time and improving SLA compliance across managed accounts.",
+    ],
+  },
+    {
+    company: "BSNL — Advanced Level Telecom Training Centre (ALTTC)",
+    role: "Network & Cybersecurity Intern",
+    period: "Jun – Jul 2020",
+    location: "Ghaziabad, India",
+    type: "2 mos",
+    bullets: [
+      "Designed and simulated enterprise network topologies using Cisco Packet Tracer, configuring routing protocols (OSPF, RIP) and VLANs across a 50+ node environment.",
+      "Conducted a vulnerability assessment of simulated network infrastructure, documenting findings and remediation steps in a technical report presented to training supervisors.",
     ],
   },
 ];
