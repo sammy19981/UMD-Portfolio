@@ -165,7 +165,7 @@ function Hero() {
   return (
     <section
       ref={ref}
-      className="relative min-h-screen flex items-center pt-16 overflow-hidden"
+      className="relative min-h-screen flex items-center pt-32 pb-20 overflow-hidden"
     >
       {/* Background effects */}
       <div className="absolute inset-0 dot-grid opacity-40" />
@@ -178,7 +178,7 @@ function Hero() {
         className="absolute bottom-[-100px] left-[-100px] w-[400px] h-[400px] rounded-full bg-violet-600/[0.04] blur-[100px]"
       />
 
-      <motion.div style={{ opacity }} className="max-w-6xl mx-auto px-6 w-full relative z-10">
+      <motion.div style={{ opacity }} className="max-w-6xl mx-auto px-6 w-full relative z-10 text-center">
         {/* Status badge */}
         <motion.div
           initial={{ opacity: 0, y: 16 }}
@@ -199,7 +199,7 @@ function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
-          className="text-[clamp(2.5rem,6vw,4.5rem)] font-semibold leading-[1.08] tracking-[-0.035em] max-w-3xl mb-6"
+          className="text-[clamp(2.5rem,6vw,4.5rem)] font-semibold leading-[1.12] tracking-[-0.035em] max-w-3xl mb-8 mx-auto"
         >
           <span className="text-zinc-100">I turn complexity</span>
           <br />
@@ -210,7 +210,7 @@ function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.55 }}
-          className="text-lg text-zinc-400 max-w-xl leading-relaxed mb-10"
+          className="text-lg text-zinc-400 max-w-2xl leading-relaxed mb-12 mx-auto"
         >
           Analytics and strategy professional with 3.5+ years at Deloitte. I
           blend data engineering, BI, and consulting to solve business problems
@@ -221,7 +221,7 @@ function Hero() {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.7 }}
-          className="flex flex-wrap gap-3 mb-20"
+          className="flex flex-wrap gap-4 mb-24 justify-center"
         >
           <a
             href="#contact"
@@ -252,7 +252,7 @@ function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.9 }}
-          className="flex flex-wrap gap-x-12 gap-y-6 pt-10 border-t border-white/[0.06]"
+          className="flex flex-wrap gap-x-16 gap-y-8 pt-12 border-t border-white/[0.06] justify-center"
         >
           {[
             { val: "3.5+", label: "Years at Deloitte" },
@@ -434,7 +434,7 @@ function Skills() {
         <SectionLabel>Skills</SectionLabel>
         <SectionTitle>Tools of the trade.</SectionTitle>
         <motion.p variants={fadeUp} className="text-zinc-400 max-w-xl mb-14 leading-relaxed">
-          Hands-on across the full data stack - from Python scripts to
+          Hands-on across the full data stack — from Python scripts to
           cloud-scale ETL.
         </motion.p>
 
