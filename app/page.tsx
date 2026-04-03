@@ -126,11 +126,11 @@ function Nav() {
         </a>
 
         <div className="hidden md:flex items-center gap-8">
-          {["about", "experience", "skills", "projects", "contact"].map(
+          {["About", "Experience", "Skills", "Projects", "Contact"].map(
             (s) => (
               <a
                 key={s}
-                href={`#${s}`}
+                href={`#${s.toLowerCase()}`}
                 className="text-[13px] font-medium text-zinc-500 hover:text-zinc-200 transition-colors tracking-wide"
               >
                 {s}
@@ -256,9 +256,9 @@ function Hero() {
         >
           {[
             { val: "3.5+", label: "Years at Deloitte" },
-            { val: "15M+", label: "Records migrated" },
-            { val: "6", label: "Cloud certifications" },
-            { val: "98%", label: "Data quality achieved" },
+            { val: "20+", label: "Stakeholders enabled" },
+            { val: "9", label: "Projects shipped" },
+            { val: "60%", label: "Fewer ad hoc requests" },
           ].map((m) => (
             <div key={m.label}>
               <div className="text-2xl md:text-3xl font-semibold tracking-tight text-zinc-100">
