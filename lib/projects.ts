@@ -11,6 +11,15 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+    {
+    title: "SupplyGuard — AI Supplier Risk Tracker",
+    description:
+      "Full-stack enterprise web app for procurement and compliance teams. Manages 150+ suppliers across 40+ countries with real-time risk scoring, automated compliance document tracking (1,350+ docs), sanctions screening, and AI-generated risk assessments using GPT-4o-mini. Features real-time notifications via Supabase Realtime, Google OAuth, and graceful degradation with demo data fallback.",
+    category: "ai",
+    tech: ["Next.js", "TypeScript", "Supabase", "PostgreSQL", "OpenAI GPT-4o-mini", "Recharts", "Google OAuth"],
+    metrics: "150+ suppliers · 40+ countries · 1,350+ docs tracked",
+    date: "Apr 2026",
+  },
   {
     title: "NexLearn AI",
     description:
@@ -18,7 +27,6 @@ export const projects: Project[] = [
     category: "ai",
     tech: ["Python", "Streamlit", "LangChain", "GPT-4", "Canvas API", "Google Calendar"],
     metrics: "5–8% modeled retention improvement",
-    featured: true,
     date: "Oct – Nov 2025",
   },
   {
@@ -28,7 +36,6 @@ export const projects: Project[] = [
     category: "ml",
     tech: ["Python", "XGBoost", "LightGBM", "TF-IDF", "scikit-learn"],
     metrics: "78.11% accuracy · 0.8268 AUC",
-    featured: true,
     date: "Jan – Mar 2026",
   },
   {
