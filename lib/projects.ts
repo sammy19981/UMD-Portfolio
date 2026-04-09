@@ -21,6 +21,16 @@ export const projects: Project[] = [
     date: "Apr 2026",
   },
   {
+    title: "Southern Maryland Rail Corridor — Transit Gap Analysis",
+    description:
+      "Analyzed 2M+ LEHD origin-destination job flows to identify Maryland's highest-priority transit gap. Built a three-stage equity-weighted scoring pipeline across 3,257 corridor pairs, then used K-means clustering to optimize 8 station locations along a 76.2-mile commuter rail corridor. Developed a 15-category financial model projecting $1.97B in cumulative net benefit over 35 years. Presented to Maryland DoIT and Deloitte judges at the SAC 7th Annual Datathon.",
+    category: "data-eng",
+    tech: ["Python", "GeoPandas", "scikit-learn", "K-Means", "OSMnx", "matplotlib", "LEHD Data"],
+    metrics: "2M+ job flows · 3,257 corridors scored · $1.97B projected value",
+    featured: false,
+    date: "Mar – Apr 2026",
+  },
+  {
     title: "NexLearn AI",
     description:
       "Production-ready academic assistant for UMD grad students. Connects to Canvas & Google Calendar with LangChain agents and GPT-4 for personalized study plans, flashcards, smart scheduling, and advisor alerts.",
