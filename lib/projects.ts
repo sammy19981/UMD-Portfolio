@@ -21,6 +21,26 @@ export const projects: Project[] = [
     date: "Apr 2026",
   },
   {
+    title: "CFPB Complaint Resolution Agent — Multi-Agent AI System",
+    description:
+      "Built a multi-agent AI system for UMD's 2026 Agentic AI Challenge that automatically analyzes consumer financial complaints from the CFPB database (400K+ real complaints). Six specialized AI agents coordinated by an orchestrator handle end-to-end processing: complaint classification, regulatory compliance risk assessment, root cause analysis, sentiment/vulnerability detection, intelligent team routing with SLA assignment, and full resolution plan generation including regulatory-compliant customer response letters.",
+    category: "ai",
+    tech: ["Python", "OpenAI", "ThreadPoolExecutor", "CFPB API", "Gradio", "Multi-Agent Architecture"],
+    metrics: "6 AI agents · 400K+ complaints · End-to-end automation",
+    featured: false,
+    date: "Mar – Apr 2026",
+  },
+  {
+    title: "EY AI Forensic Case Competition — First Place Winner",
+    description:
+      "Won first place at the EY x UMD 2026 AI Forensic Case Competition, analyzing a fabricated dataset for a fictional Argentine winery's bank loan application. Ran 10 independent forensic tests across 1,894 transactions, cross-referenced claims against the Argentine Central Bank and USDA benchmarks, and built a full forensic report mapped to AICPA standards. Key findings included revenue overstated by 2.1x, 67+ invoices for unharvested wine, and Benford's Law failure confirming hand-keyed fabrication.",
+    category: "data-eng",
+    tech: ["Python", "Excel", "Data Analytics", "Risk Assessment", "AICPA Standards", "Benford's Law"],
+    metrics: "1st place · 1,894 transactions · 10 forensic tests",
+    featured: false,
+    date: "Feb – Apr 2026",
+  },
+  {
     title: "Southern Maryland Rail Corridor — Transit Gap Analysis",
     description:
       "Analyzed 2M+ LEHD origin-destination job flows to identify Maryland's highest-priority transit gap. Built a three-stage equity-weighted scoring pipeline across 3,257 corridor pairs, then used K-means clustering to optimize 8 station locations along a 76.2-mile commuter rail corridor. Developed a 15-category financial model projecting $1.97B in cumulative net benefit over 35 years. Presented to Maryland DoIT and Deloitte judges at the SAC 7th Annual Datathon.",
