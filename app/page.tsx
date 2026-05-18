@@ -191,7 +191,7 @@ function Hero() {
             <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-400" />
           </span>
           <span className="text-[12px] font-medium text-zinc-400 tracking-wide">
-            Available for select opportunities
+            Analytics & Strategy | ex-Deloitte | UMD MSIS '26
           </span>
         </motion.div>
 
@@ -212,9 +212,9 @@ function Hero() {
           transition={{ duration: 0.6, delay: 0.55 }}
           className="text-lg text-zinc-400 max-w-2xl leading-relaxed mb-12 mx-auto"
         >
-          Analytics and strategy professional with 3.5+ years at Deloitte. I
-          blend data engineering, BI, and consulting to solve business problems
-          end-to-end. Currently finishing my MS at UMD.
+          Analytics and strategy consultant with 3.5+ years at Deloitte. I
+          blend data engineering, BI, and structured problem-solving to drive
+          business decisions. Currently finishing my MS at UMD.
         </motion.p>
 
         <motion.div
@@ -538,7 +538,16 @@ function Projects() {
           End-to-end from pipeline to dashboard — academic research, ML models,
           and production tools.
         </motion.p>
-
+        <motion.div variants={fadeUp} className="flex flex-wrap gap-2 mb-8">
+          {["All", "Consulting & Strategy", "Analytics & BI", "AI / ML", "Cloud & Data Engineering"].map((filter) => (
+            <button
+              key={filter}
+              className="text-[12px] font-semibold px-4 py-2 rounded-full border border-white/[0.08] text-zinc-400 hover:text-zinc-100 hover:border-indigo-500/40 hover:bg-indigo-500/10 transition-all cursor-pointer"
+            >
+              {filter}
+            </button>
+          ))}
+        </motion.div>
         <motion.div
           variants={stagger}
           className="grid md:grid-cols-2 gap-4"
