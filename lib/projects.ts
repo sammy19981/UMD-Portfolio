@@ -21,6 +21,17 @@ export const projects: Project[] = [
     date: "Apr 2026",
   },
   {
+    title: "FlightShield — AI-Driven Airline Disruption Intelligence",
+    description:
+      "Multi-tenant AI platform giving airline Operations Control Centers pre-departure visibility into flight cancellations and delays. Trained a gradient-boosted classifier on 599K DOT flight records with a strict no-leakage pipeline, achieving 0.760 ROC-AUC for disruption and 0.958 for cancellations. Features 7 integrated screens including Network Risk Dashboard, Flight Monitor, Model Performance, and a Responsible AI fairness audit across carrier, airport, and route type. Serves 10 airlines via tenant selector without code changes.",
+    category: "ai",
+    tech: ["Next.js", "FastAPI", "Python", "XGBoost", "DOT BTS Data", "Vercel"],
+    metrics: "0.958 AUC · 599K records · 10 airlines served",
+    featured: true,
+    link: "https://flightshield.vercel.app",
+    date: "Jan – May 2026",
+  },
+  {
     title: "CFPB Complaint Resolution Agent — Multi-Agent AI System",
     description:
       "Built a multi-agent AI system for UMD's 2026 Agentic AI Challenge that automatically analyzes consumer financial complaints from the CFPB database (400K+ real complaints). Six specialized AI agents coordinated by an orchestrator handle end-to-end processing: complaint classification, regulatory compliance risk assessment, root cause analysis, sentiment/vulnerability detection, intelligent team routing with SLA assignment, and full resolution plan generation including regulatory-compliant customer response letters.",
