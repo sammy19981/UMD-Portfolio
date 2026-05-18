@@ -27,7 +27,7 @@ export const projects: Project[] = [
     category: "ai",
     tech: ["Next.js", "FastAPI", "Python", "XGBoost", "DOT BTS Data", "Vercel"],
     metrics: "0.958 AUC · 599K records · 10 airlines served",
-    featured: true,
+    featured: false,
     link: "https://flightshield.vercel.app",
     date: "Jan – May 2026",
   },
